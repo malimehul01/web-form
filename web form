@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>web form</title>
+    <link rel="stylesheet" href="stylling web form.css">
+</head>
+<body>
+    <div class="malimehul">
+    <h1 >payment form</h1>
+</div>
+    <h2> contact information :-</h2>
+    <h5>required files are followed by *</h5>
+    <form>
+
+
+   <p>Name: *<input type="text" name="name" placeholder="Enter your name " id="name" required></p>
+
+
+
+    
+    <fieldset>
+        <legend>Gender *</legend>
+        <p>
+    male <input type="radio" name="gender"id="gender">
+    female<input type="radio" name="gender" id="gender">
+</p>
+</fieldset>
+<p>
+Address:</p><textarea cols="80" rows="12" placeholder="Enter Address"></textarea>
+<p>Pincode: * <input type="number"name="Pincode" id="pincode"placeholder="Enter pincode" required></p> 
+
+<p>Email: *<input type="email" name="email" id="email" placeholder="Ex:-xyz@gmail.com" required></p> 
+<div class="mehul">
+<h1 class="kapil">payment information</h1>
+</div>
+<p>card type: 
+<select>
+
+   <option value="">...select card type ....</option></p> 
+    <option value="rupay">rupay</option>
+    <option value="master card ">master card</option>
+    <option value="credit card">credit card</option>
+    
+
+
+
+
+
+</select>
+
+<p>card number:* <input type="number" name="card number" id="card number" placeholder="1111-2222-333-4444" required> </p>
+<p>Expriration Date :*<input type="date" name="date" id="date" required></p> 
+
+<p>CVV : *<input type="password" name="cvv" id="cvv"placeholder="Enter CVV" required></p> 
+<p><input type="submit" value="pay now" ></p>
+ <input type="reset"name="reset"  >
+
+
+
+
+
+
+
+
+</form>
+</body>
+
+
+
+
+
+
+</html>
